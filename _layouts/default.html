@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+    <meta name="author" content="{{ page.author }}">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/moabienen.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.png"/>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <div class="container header-inner">
+        <div class="background">
+          <img class="bee-queen" src="/img/Bienen_Koenigin_Header.png" alt="Bienen-Königin"/>
+        </div>
+        <div class="row header-row">
+          <div class="col-sm-6 col-sm-offset-2 col-md-4 col-md-offset-3 col-lg-4 col-lg-offset-3">
+            <header class="header">
+              <h1>
+                <div class="what">Offenes</div>
+                Moabienen<br/>
+                &nbsp;Mitimkern<br/>
+                <div class="where">
+                  am <strong>ZK/U</strong>
+                  <div class="at">
+                    Moabiter<br/>
+                    Stadtgarten
+                  </div>
+                </div>
+              </h1>
+            </header>
+          </div>
+        </div>
+        <div class="row nav-row">
+          <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2">
+            <div class="navbar nav-moabees">
+              <div class="navbar-collapse">
+                <ul class="nav navbar-nav">
+                  {% for item in page.nav %}
+                    <li>
+                      <a href="{{ item.href }}">{{ item.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container body-container">
+      <div class="row">
+        <div class="col-sm-2 col-md-2 col-lg-2">
+          {% if site.langs %}
+            <ul class="list-unstyled language-list">
+              {% for lang in site.langs %}
+                {% if lang.lang == page.lang %}
+                  <li class="active">
+                {% else %}
+                  <li>
+                {% endif %}
+                  <a href="{% if lang.lang == site.lang %}/{% else %}/{{ lang.lang }}/{% endif %}">
+                    {{ lang.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+        <div class="col-sm-10 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <div class="footer-container">
+      <div class="container">
+        <div class="row">
+          <div class="footer col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+            <div class="background">
+              <img class="bee-swarm" src="/img/Bienenschwarm_Unten.png" alt="Bienenschwarm"/>
+            </div>
+            <div class="footer-text content">
+              <p>
+                Ein Projekt des <strong>Kunst Werk Stadt Berlin e.V.</strong> in Kooperation mit dem ZK/U.
+              </p>
+
+              <p>
+                Impressum: Elisa Dierson, Leinestraße 33, 12049 Berlin
+              </p>
+              <p>
+                Das Projekt wird im Rahmen des QUartiersmanagements moabit West (beUsselstrasse) aus Mitteln des Programms Soziale Stadt (EU, Bund und Land Berlin) gefördert.
+              </p>
+              <img class="img-responsive" src="/img/west_Logoleiste_print_2013.png" alt="Logos Fördergeber"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
