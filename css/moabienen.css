@@ -208,7 +208,7 @@ h1, h2, h3 {
 .hand {
   z-index: -10;
   position: absolute;
-  background: url('../img/Imkerhand.png') no-repeat;
+  background: url('../img/imkerhand.png') no-repeat;
   right: -220px;
   top: -50px;
   width: 480px;
