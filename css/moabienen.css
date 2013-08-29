@@ -110,7 +110,7 @@ h1, h2, h3 {
 .nav-moabees .nav > li > a {
   font-family: 'Miso-Light', Helvetica, sans-serif !important;
   font-variant: small-caps;
-  font-size: 22px;
+  font-size: 26px;
   color: #111638;
 }
 
@@ -169,7 +169,7 @@ h1, h2, h3 {
 }
 
 .content h2 {
-  margin-top: 1em;
+  margin-top: 2em;
   font-size: 40px;
   text-transform: uppercase;
 }
