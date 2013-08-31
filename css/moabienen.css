@@ -190,6 +190,7 @@ h1, h2, h3 {
   width: 45%;
   text-align: left;
   font-weight: normal !important;
+  margin: 0 0 9px;
 }
 
 .content .dl-horizontal dd:before {
@@ -222,7 +223,7 @@ h1, h2, h3 {
 }
 
 .footer {
-  height: 750px;
+  height: 840px;
 }
 
 .footer-container .background {
@@ -230,7 +231,7 @@ h1, h2, h3 {
   width: 120%;
   left: -10%;
   bottom: -10%;
-  height: 500px;
+  height: 580px;
   background-color: #FDFE73;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
@@ -248,7 +249,7 @@ h1, h2, h3 {
 }
 
 .footer-text {
-  margin-top: 560px;
+  margin-top: 570px;
   font-size: 16px;
   padding-bottom: 1em;
 }
