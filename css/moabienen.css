@@ -1,29 +1,36 @@
 /* @license
- * MyFonts Webfont Build ID 2632137, 2013-08-28T16:01:43-0400
- *
+ * MyFonts Webfont Build ID 2639616, 2013-09-09T10:20:22-0400
+ * 
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
+ * Agreement(s) entered into by the website owner. All other parties are 
  * explicitly restricted from using the Licensed Webfonts(s).
- *
+ * 
  * You may obtain a valid license at the URLs below.
+ * 
  *
- * Webfont: Miso Bold by Mårten Nettelbladt
- * URL: http://www.myfonts.com/fonts/martennettelbladt/miso/bold/
+ * Webfont: Miso by Mårten Nettelbladt
+ * URL: http://www.myfonts.com/fonts/martennettelbladt/miso/regular/
+ * Copyright: Copyright (c) M&#x00E5;rten Nettelbladt, 2006. All rights reserved.
  * Licensed pageviews: Unlimited
  *
  * Webfont: Miso Light by Mårten Nettelbladt
  * URL: http://www.myfonts.com/fonts/martennettelbladt/miso/light/
  * Licensed pageviews: Unlimited
  *
+ * Webfont: Miso Bold by Mårten Nettelbladt
+ * URL: http://www.myfonts.com/fonts/martennettelbladt/miso/bold/
+ * Licensed pageviews: Unlimited
  *
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2639616
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=2632137
- * Webfonts copyright: Copyright (c) M&#x00E5;rten Nettelbladt, 2006. All rights reserved.
- *
+ * 
  * © 2013 MyFonts Inc
 */
 
 @font-face {font-family: 'Miso-Bold';src: url('../fonts/Miso-Bold.eot');src: url('../fonts/Miso-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/Miso-Bold.woff') format('woff'),url('../fonts/Miso-Bold.ttf') format('truetype');}
 @font-face {font-family: 'Miso-Light';src: url('../fonts/Miso-Light.eot');src: url('../fonts/Miso-Light.eot?#iefix') format('embedded-opentype'),url('../fonts/Miso-Light.woff') format('woff'),url('../fonts/Miso-Light.ttf') format('truetype');}
+@font-face {font-family: 'Miso-Regular';src: url('../fonts/Miso-Regular.eot');src: url('../fonts/Miso-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/Miso-Regular.woff') format('woff'),url('../fonts/Miso-Regular.ttf') format('truetype');}
 
 h1, h2, h3 {
   font-family: 'Miso-Bold', Helvetica, sans-serif !important;
