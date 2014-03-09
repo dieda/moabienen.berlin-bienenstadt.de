@@ -238,7 +238,7 @@ h1, h2, h3 {
   width: 120%;
   left: -10%;
   bottom: -10%;
-  height: 580px;
+  height: 650px;
   background-color: #FDFE73;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
@@ -256,7 +256,7 @@ h1, h2, h3 {
 }
 
 .footer-text {
-  margin-top: 570px;
+  margin-top: 500px;
   font-size: 16px;
   padding-bottom: 1em;
 }
