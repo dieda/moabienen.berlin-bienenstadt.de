@@ -230,7 +230,7 @@ h1, h2, h3 {
 }
 
 .footer {
-  height: 840px;
+  height: 900px;
 }
 
 .footer-container .background {
@@ -256,7 +256,7 @@ h1, h2, h3 {
 }
 
 .footer-text {
-  margin-top: 500px;
+  margin-top: 560px;
   font-size: 16px;
   padding-bottom: 1em;
 }
