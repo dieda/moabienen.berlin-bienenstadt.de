@@ -230,7 +230,7 @@ h1, h2, h3 {
 }
 
 .footer {
-  height: 900px;
+  height: 1170px;
 }
 
 .footer-container .background {
@@ -238,7 +238,7 @@ h1, h2, h3 {
   width: 120%;
   left: -10%;
   bottom: -10%;
-  height: 650px;
+  height: 955px;
   background-color: #FDFE73;
   -webkit-transform: rotate(-5deg);
   -moz-transform: rotate(-5deg);
